@@ -4,16 +4,34 @@
         <title>Dave's Google Homepage</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
 
     </head>
-    <body>
-      <div>
+    <nav id="navbar">
+      <div class="left-nav">
+        <a id="nav-link" class="left-links" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj4x4bC0-fvAhXtJzQIHZUUD_AQkNQCCAI&url=https%3A%2F%2Fabout.google%2F%3Ffg%3D1%26utm_source%3Dgoogle-CA%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw296xVatcuwUbXreicp5CTy">
+            About</a>
+        <a id="nav-link" class="left-links" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwj4x4bC0-fvAhXtJzQIHZUUD_AQpMwCCAM&url=https%3A%2F%2Fstore.google.com%2FCA%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-CA&usg=AOvVaw2jXq0Lmg69fpjqh9o2xvoj">
+        Store</a>
+      </div>
+      <div class="right-nav">
+          <a id="nav-link" class="right-links" href="https://mail.google.com/mail/&ogbl">
+        Gmail</a>
+          <a id="nav-link" class="right-links" href="https://www.google.ca/imghp?hl=en&ogbl">
+        Images</a>
+          <a id="nav-link" class="right-links" href="https://www.google.ca/intl/en/about/products">
+        <i class="material-icons">apps</i></a>
+      
+      </div>
+    </nav>
+    <body id="main-body">
+      <div class="mid-page">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
              id="google-image"
              class="body"
              alt="Google">
       </div>
-      <div>
+      <div class="mid-page">
         <form action="search" class="search-bar">
             <label for="search"><i class="material-icons">search</i></label>
             <input type="text" name="search" id="search">
