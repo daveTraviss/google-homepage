@@ -8,7 +8,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
     
 }
 
@@ -17,16 +17,22 @@ a {
     text-decoration: none;
     font-size: .9em;
     font-family: arial, sans-serif;
-    
+    color: #2a2b2c;
+    align-items: center;
 }
 
 #nav-link {
-    color: #2a2b2c;
+  align-items: center;  
 }
 
 .left-nav, .right-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.account {
+    border-radius: 50%;
 }
 
 .container {
